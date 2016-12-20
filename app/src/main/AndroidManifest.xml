@@ -14,6 +14,7 @@
         android:launchMode="singleTop"
         android:theme="@style/AppTheme">
         <activity
+            android:excludeFromRecents="true"
             android:name="net.nrask.simplelockscreen.LockscreenActivity"
             android:theme="@style/Theme.Transparent">
             <intent-filter>
